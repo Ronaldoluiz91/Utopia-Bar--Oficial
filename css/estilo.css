@@ -182,6 +182,10 @@ nav a:focus,
     max-width: 150px;
 }
 
+.iconFooter{
+    width: 35px;
+}
+
 
 .assinatura {
     color: #fff;
@@ -415,21 +419,21 @@ button a {
 
 .menu-cardap a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "open sans", sans-serif;
     align-items: center;
     display: flex;
-    gap: 3px;
+    gap: 5px;
     justify-content: center;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.151);
 }
 
 .menu-cardap a:hover{
-    background-color: #B06761;
-    /* color: black; */
+    background-color: #812b24;
     transition: 1s;
-    
 }
+    
+
 
 .menu-cardap hr {
     width: 100%;
@@ -872,6 +876,10 @@ button a {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .rodape img {
+        margin: 0;
     }
 
     .endereco {
@@ -1385,9 +1393,7 @@ button a {
     /*PAGINA CARDAPIO PARA DESKTOP*/
 
 
-    .menu-cardap a {
-        font-size: 25px;
-    }
+   
 
     .cardapio-t {
         display: flex;
