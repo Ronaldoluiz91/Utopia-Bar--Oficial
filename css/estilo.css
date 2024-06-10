@@ -331,7 +331,7 @@ font-family: "open sans", sans-serif;
 
 .galeria {
     display: flex;
-    gap: 5px;
+    gap: 3px;
     justify-content: center;
     flex-wrap: wrap;
     /* margin-bottom: 50px; */
@@ -341,7 +341,9 @@ font-family: "open sans", sans-serif;
     border-radius: 15px;
 }
 
-
+.fundoGaleria2{
+    background-color: antiquewhite;
+}
 
 .fundoGaleria2 h2 {
     margin-top: 20px;
@@ -349,6 +351,7 @@ font-family: "open sans", sans-serif;
     font-family: "Alegreya SC", serif;
     font-weight: 700;
     font-style: normal;
+    color: rgb(129, 43, 36);
 }
 
 
