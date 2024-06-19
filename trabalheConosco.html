@@ -40,48 +40,54 @@
         </nav>
     </div>
 </header>
-
+<!-- oi -->
 <body>
-    <div class="trabalhe">
-        <h3>Venha Trabalhar conosco</h3>
-        <p>Faça parte do nosso time Utopia</p>
-        <p>Preencha os campos abaixo.
+    <div id="fundo">
+        
+            <div class="trabalhe">
+                <!-- <h3>Venha Trabalhar conosco</h3>
+                <p>Faça parte do nosso time Utopia</p>
+                <p>Preencha os campos abaixo.</p> -->
+            </div>
+            <form action="" id="form-trabalhe" method="post">
+                <h3>Venha Trabalhar conosco</h3>
+                <p>Faça parte do nosso time Utopia</p>
+                <p>Preencha os campos abaixo.</p>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input tabindex="5" required type="text" id="nomeTrabalhe" name="nome">
+                </p>
+                <p>
+                    <label for="telefone">Celular:</label>
+                    <input tabindex="6" required type="tel" id="telefoneTrabalhe" name="telefone">
+                </p>
+                <p>
+                    <label for="email">email:</label>
+                    <input tabindex="7" required type="email" id="email" name="email">
+                </p>
+                <p>
+                    <label for="cargo">Cargo/Função:</label>
+                    <input tabindex="8" required type="text" id="cargo" name="cargo">
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea tabindex="9" name="mensagem" id="mensagemTrabalhe" cols="30" rows="6"></textarea>
+                </p>
+                <p>
+                    <button tabindex="10" id="enviar" name="enviarTrabalhe">Enviar</button>
+                </p>
+            </form>
+        
+
+
     </div>
-    <form action="" id="form-trabalhe" method="post">
-        <p>
-            <label for="nome">Nome:</label>
-            <input tabindex="5" required type="text" id="nomeTrabalhe" name="nome">
-        </p>
-        <p>
-            <label for="telefone">Celular:</label>
-            <input tabindex="6" required type="tel" id="telefoneTrabalhe" name="telefone">
-        </p>
-        <p>
-            <label for="email">email:</label>
-            <input tabindex="7" required type="email" id="email" name="email">
-        </p>
-        <p>
-            <label for="cargo">Cargo/Função:</label>
-            <input tabindex="8" required type="text" id="cargo" name="cargo">
-        </p>
-        <p>
-            <label for="mensagem">Mensagem:</label>
-            <textarea tabindex="9" name="mensagem" id="mensagemTrabalhe" cols="30" rows="6"></textarea>
-        </p>
-        <p>
-            <button tabindex="10" id="enviar" name="enviarTrabalhe">Enviar Dados</button>
-        </p>
-    </form>
-
-
-
     <footer class="rodape">
         <div class="endereco">
             <div id="logo-rodape" class="footerColum">
                 <a href="index.html"><img src="imagens/utopiaLogo-removebg-preview.png" alt="Logotipo"></a>
             </div>
 
-            <div  class="locali">
+            <div class="locali">
                 <h1>Localização</h1>
                 <p>Rua Tito - 31 - Vila Romana</p>
                 <p>São Paulo - SP</p>
@@ -100,12 +106,12 @@
             </div>
 
             <div class="funcionamento">
-                
+
                 <h1>Horário de Funcionamento</h1>
                 <p>Segunda a sexta: 12:00 as 22:00 horas</p>
                 <p>Sabado: 11:00 as 00:00 horas</p>
                 <p>Domingo 12:00 as 23:00 horas</p>
-                
+
             </div>
         </div>
 
@@ -113,6 +119,7 @@
 
     <div class="assinatura">
         <p>Desenvolvido por <b>Ronaldo e Kennedy</b> Site acadêmico |
+            Todos os direitos reservados |
             SENAC TITO &copy; 2024</p>
     </div>
 

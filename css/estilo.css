@@ -519,6 +519,7 @@ button a {
     border: solid 1px black;
     width: 100%;
     margin: 4px auto;
+    border-radius: 10px;
 }
 
 #form-contato select {
@@ -528,11 +529,17 @@ button a {
 #form-contato input,
 #form-contato select {
     height: 30px;
+    border-radius: 10px;
 }
 
 #form-contato label {
     font-weight: bold;
 }
+
+#form-contato p {
+    width: 100%;
+}
+
 
 .titulo-contato h3 {
     text-align: center;
@@ -541,13 +548,24 @@ button a {
     margin-bottom: 0px;
 }
 
+.titulo-contato {
+
+    background-image: url("../imagens/imagensFormularios/utopia-contato.png");
+    padding: 1px;
+}
+
+.titulo-contato h3 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
 
 .conteudo-contato {
-    margin: 5%;
+    margin: auto 34% 9%;
     text-align: center;
-    background-color: #f0e1df;
+    background-color: #f0e1dfe8;
     border-radius: 15px;
     padding: 2%;
+    font-family: "open sans";
 }
 
 
@@ -586,76 +604,72 @@ button a {
 }
 
 #enviarContato {
+    box-shadow: black 1px 1px 2px;
     background-color: #812b24;
-    width: 116px;
-    padding: 15px;
-    border-radius: 10px;
+    width: 20%;
+    padding: 8px;
+    border-radius: 16px;
     text-align: center;
     display: flex;
     /* align-content: center; */
     justify-content: center;
     color: white;
     cursor: pointer;
+    font-family: "open sans";
+    font-size: smaller;
 
-}
-
+}s
 
 
 /*Pagina reserva*/
 
-#form-reserva h3 {
-
-    margin: 0;
-}
-
-.conteudo-reserva-pai {
-    width: 100vw;
-    height: 54vh;
-    /* background-size: cover; */
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 #form-reserva {
-    margin-top: -6%;
-    /* height: 84%; */
+    margin: 5px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
 #form-reserva input,
 #form-reserva select {
     border: solid 1px black;
-    width: 70%;
-    /* margin: 4px auto; */
-    height: 10%;
-    border-radius: 10px;
+    width: 92%;
+    margin: 4px auto;
 }
 
-/* #form-reserva input,
+#form-reserva input,
 #form-reserva select {
     height: 30px;
-} */
+    border-radius: 10px;
+}
 
 #form-reserva p {
     margin-bottom: auto;
 }
 
-
+.conteudo-reserva-pai {
+    justify-content: center;
+    margin: 0%;
+    display: flex;
+    background-image: url("../imagens/imagensFormularios/Utopia\ 2\ oo.png");
+    padding: 9%;
+}
 
 .conteudo-reserva {
     text-align: center;
-    background-color: #874137;
-    border-radius: 35px;
-    width: 85%;
-    height: 410px;
-    color: white;
+    background-color: #f0e1dfe8;
+    border-radius: 15px;
+    width: 100%;
+    color: black;
+    font-family: "open sans";
+    padding: 2%;
 }
+
+.conteudo-reserva h3 {
+    text-transform: uppercase;
+}
+
 
 #reservar {
     box-shadow: black 1px 1px 2px;
@@ -664,16 +678,20 @@ button a {
     width: 80px;
     /* margin-left: 140px; */
     margin-top: 15px;
-    background-color: white;
-    color: black;
     border-radius: 55px;
     cursor: pointer;
+    background-color: #812b24;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: smaller;
+    text-transform: uppercase;
 }
 
 #reservar:hover {
     background-color: #B06761;
     color: white;
 }
+
 
 .loading {
     position: fixed;
@@ -831,23 +849,44 @@ button a {
     margin-bottom: 10px;
 }
 
+
+
 #form-trabalhe {
     margin: auto;
     max-width: 700px;
     width: 95%;
+    background-color: #f0e1dfe8;
+    border-radius: 15px;
+    width: 50%;
+    color: black;
+    padding: 1%;
+    font-family: 'Open Sans';
+}
+
+#form-trabalhe h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fundo {
+
+    background-image: url("../imagens/imagensFormularios/Utopia-tra.png");
+    padding: 9%;
 }
 
 #form-trabalhe input,
 #form-trabalhe textarea,
 #form-trabalhe select {
     border: solid 1px black;
-    width: 100%;
+    width: 92%;
     margin: 4px auto;
+    border-radius: 10px;
 }
 
 #form-trabalhe input,
 #form-trabalhe select {
     height: 30px;
+    border-radius: 10px;
 }
 
 #form-trabalhe label {
@@ -859,11 +898,16 @@ button a {
 }
 
 #form-trabalhe button {
-    background-color: #B06761;
+    box-shadow: black 1px 1px 2px;
+    background-color: #812b24;
     color: white;
-    padding: 2%;
-    border-radius: 5px;
+    padding: 1%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: "open sans";
+    width: 20%;
 }
+
 
 
 /* começando a parte responsiva da pagina Index TABLET */
